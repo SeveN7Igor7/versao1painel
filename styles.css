@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.panel {
+    background-color: #fff;
+    border-radius: 15px; /* Aumentando o raio do border-radius para deixar os cantos mais arredondados */
+    padding: 30px; /* Aumentando o espaçamento interno */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumentando a intensidade da sombra */
+    max-width: 400px; /* Definindo uma largura máxima para evitar que o painel fique muito largo */
+    width: 100%; /* Garantindo que o painel ocupe 100% da largura disponível */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Adicionando margem inferior ao título */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px; /* Ajustando o padding do botão */
+    border: none;
+    border-radius: 8px; /* Aumentando o raio do border-radius do botão */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Adicionando regras de estilo para tornar o site responsivo */
+@media (max-width: 600px) {
+    .panel {
+        padding: 20px;
+    }
+
+    button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
